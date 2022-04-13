@@ -1,29 +1,16 @@
 #include "stdio.h"
 
 /**
- * jack_bauer -  function that prints every minute of the day of Jack Bauer
- * starting from 00:00 to 23:59.
- * Return: nothing.
+ * add - function that adds two integers and returns the result.
+ * @n1: input integer 1
+ * @n2: input integer 2
+ * Return: int.
  */
 
-void jack_bauer(void)
+int add(int n1, int n2)
 {
-	int x = 0;
-	int j = 0;
+	int res;
 
-	while (x <= 23)
-	{
-		j = 0;
-		while (j <= 59)
-		{
-			putchar((x / 10) + '0');
-			putchar((x % 10) + '0');
-			putchar(':');
-			putchar((j / 10) + '0');
-			putchar((j % 10) + '0');
-			putchar('\n');
-			j += 1;
-		}
-		x += 1;
-	}
+	res = n1 + n2;
+	return (res);
 }

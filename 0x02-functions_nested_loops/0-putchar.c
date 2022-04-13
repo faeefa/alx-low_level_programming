@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - program that prints putchar.
+ *
+ * Return: int
+ */
+
 int main(void)
 {
 	int n = 0;
