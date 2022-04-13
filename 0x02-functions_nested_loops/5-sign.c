@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "stdio.h"
 /**
  * print_sign - Determines whether an integer is positive, negative or zero.
  * @n: the number to be checked.
@@ -8,22 +8,22 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar('+');
+		putchar('+');
 		return (1);
 	}
 	else if (n == 0)
 	{
-		_putchar('0');
+		putchar('0');
 		return (0);
 	}
 	else if (n < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		return (-1);
 	}
 	else
 	{
-		_putchar('-');
+		putchar('-');
 		return ('/');
 	}
 }
