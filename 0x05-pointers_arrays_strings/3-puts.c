@@ -5,7 +5,7 @@
  * @str: pointer int type
  * Return: Always 0.
  */
-void puts(char *str)
+void _puts(char *str)
 {
 while (*str != '\0')
 {
